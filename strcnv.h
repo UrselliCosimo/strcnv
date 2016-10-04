@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 double valc (char s[],short tipe)
 {
     double v=0;
@@ -12,7 +16,7 @@ double valc (char s[],short tipe)
         case 1:
             if (strlen(s)>7)
             {
-                printf("\nIl valore inserito Ë troppo grande per il tipo di variabie scelto!\nVerr‡ ritornato il valore 0!");
+                printf("\nIl valore inserito √® troppo grande per il tipo di variabie scelto!\nVerr√† ritornato il valore 0!");
                 return 0;
             }
             else
@@ -23,7 +27,7 @@ double valc (char s[],short tipe)
         case 2:
             if (strlen(s)>12)
             {
-                printf("\nIl valore inserito Ë troppo grande per il tipo di variabie scelto!\nVerr‡ ritornato il valore 0!");
+                printf("\nIl valore inserito √® troppo grande per il tipo di variabie scelto!\nVerr√† ritornato il valore 0!");
                 return 0;
             }
             else
@@ -64,7 +68,7 @@ double valc (char s[],short tipe)
                 }
                 else
                 {
-                    printf("\nErrore: 2 o pi˘ punti o virgole presenti \no letti in una posizione non valida\nL'operazione verr‡ annullata!\n");
+                    printf("\nErrore: 2 o pi√π punti o virgole presenti \no letti in una posizione non valida\nL'operazione verr√† annullata!\n");
                     return 0;
                 }
                 break;
@@ -75,7 +79,7 @@ double valc (char s[],short tipe)
                 }
                 else
                 {
-                    printf("\nErrore: 2 o pi˘ punti o virgole presenti \no letti in una posizione non valida\nL'operazione verr‡ annullata!\n");
+                    printf("\nErrore: 2 o pi√π punti o virgole presenti \no letti in una posizione non valida\nL'operazione verr√† annullata!\n");
                     return 0;
                 }
                 break;
@@ -234,7 +238,7 @@ double valc (char s[],short tipe)
                 }
                 break;
             default:
-                printf("\nLa stringa contiene caratteri non validi! (\"%c\")\nL'operazione verr‡ arrestata!\n",s[i]);
+                printf("\nLa stringa contiene caratteri non validi! (\"%c\")\nL'operazione verr√† arrestata!\n",s[i]);
                 return 0;
         }
     }
